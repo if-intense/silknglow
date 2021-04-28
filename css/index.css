@@ -80,46 +80,23 @@ body {
 
 .pt2 {
   background: #808080;
-  padding: 4vh 0; }
-  .pt2 .sect .char {
-    padding: 3vh;
-    border: rgba(80, 80, 80, 0.5) 1px solid;
-    height: calc(100vh / 3);
-    max-height: 500px;
-    margin-top: auto;
-    margin-bottom: auto; }
-    .pt2 .sect .char .content {
-      background: rgba(255, 255, 255, 0.8);
-      box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.37);
-      height: calc(100vh / 4);
-      height: 100%;
-      max-height: 320px; }
-      .pt2 .sect .char .content h3 {
-        text-align: center;
-        font-size: 1.25em;
-        font-weight: bold;
-        padding-top: 20px; }
-      .pt2 .sect .char .content p {
+  padding: 4vh 0 0; }
+  .pt2 .sect .pro {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.3);
+    border: 3px solid #BEC1DF; }
+    .pt2 .sect .pro .details {
+      background: #fff; }
+      .pt2 .sect .pro .details h3 {
+        text-decoration: underline;
+        font-size: 1.25em; }
+      .pt2 .sect .pro .details h4 {
+        text-align: left;
         font-size: 0.9em;
-        line-height: 2em;
-        margin-top: 3vh;
-        padding: 0 10px; }
-  .pt2 .sect .uv-sun {
-    background: url("../img/img018.jpg") no-repeat;
-    background-size: cover;
-    background-position: left top; }
-  .pt2 .sect .preservation-free {
-    background: url("../img/img012.jpg") no-repeat;
-    background-position: right top;
-    background-size: cover; }
-  .pt2 .sect .nickel-test {
-    background: url("../img/img014.jpg") no-repeat;
-    background-position: center;
-    background-size: cover; }
-  .pt2 .sect .dermatology-test {
-    background: url("../img/bg001.png") no-repeat;
-    background-position: center;
-    background-size: cover; }
+        color: #434343; }
+      .pt2 .sect .pro .details p {
+        font-size: 0.8em; }
 
 .pt3 {
   background: #9f9f9f;
@@ -143,8 +120,9 @@ body {
   background: #434343; }
   .pt4 .sect {
     text-align: center; }
-    .pt4 .sect p {
-      color: #fff; }
+    .pt4 .sect .extra p {
+      color: #fff;
+      line-height: 2em; }
   .pt4 .remove-padding {
     padding: 0 !important;
     margin: 0 !important; }
@@ -217,7 +195,7 @@ footer {
     margin: 20px auto; }
 
   .pt2 {
-    padding: 4vh 0; }
+    padding: 4vh 0 0; }
     .pt2 .sect .char {
       padding: 20px;
       border: rgba(80, 80, 80, 0.5) 1px solid;
@@ -238,26 +216,20 @@ footer {
         font-size: 22px; } }
 @media (max-width: 768px) {
   .pt2 {
-    padding: 4vh 0; }
-    .pt2 .sect .char {
-      padding: 20px;
-      border: rgba(80, 80, 80, 0.5) 1px solid;
-      height: calc(100vh / 2);
-      max-height: 450px; }
-      .pt2 .sect .char .content {
-        background: rgba(255, 255, 255, 0.8);
-        height: 100%;
-        max-height: 390px; }
-        .pt2 .sect .char .content h3 {
-          padding-top: 20px; }
-        .pt2 .sect .char .content p {
-          font-size: 0.8em; }
+    padding-top: 4vh; }
+    .pt2 .sect .pro {
+      margin: 0 20px; }
 
-  .pt5 .sect .products {
-    width: 100%;
-    max-width: 768px; }
-    .pt5 .sect .products .disp-product {
-      margin: 20px auto; }
+  .pt3 .sect {
+    margin: 0 20px; }
+
+  .pt4 .sect .extra p {
+    font-size: 0.8em; }
+
+  .pt5 .sect .owl-carousel .product h3 {
+    font-size: 18px; }
+  .pt5 .sect .owl-carousel .product h4 {
+    font-size: 0.7em; }
 
   .jumbotron .logo {
     position: absolute;
@@ -273,7 +245,7 @@ footer {
     margin: 20px auto; }
 
   .pt2 {
-    padding: 2vh 0; }
+    padding: 2vh 0 0; }
     .pt2 .sect .char {
       padding: 20px;
       border: rgba(80, 80, 80, 0.5) 1px solid;
@@ -294,5 +266,16 @@ footer {
       font-size: 0.7em; }
       footer .footer-contents p a {
         padding: 0 5px; } }
+@media (max-width: 576px) {
+  .pt4 {
+    padding: 4vh 10px 0; }
+    .pt4 .sect .extra p {
+      font-size: 0.8em;
+      padding-bottom: 3vh; }
+
+  .sect .about-oway p {
+    font-size: 0.9em; }
+  .sect .about-sunway p {
+    font-size: 0.9em; } }
 
 /*# sourceMappingURL=index.css.map */
