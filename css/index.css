@@ -87,7 +87,8 @@ body {
     box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.3);
     border: 3px solid #BEC1DF; }
     .pt2 .sect .pro .details {
-      background: #fff; }
+      background: #fff;
+      border-radius: 10px; }
       .pt2 .sect .pro .details h3 {
         text-decoration: underline;
         font-size: 1.25em; }

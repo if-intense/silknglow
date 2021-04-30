@@ -44,7 +44,7 @@ body {
     text-align:center;
     color:$primary-white;
   }
-  
+
   .about-sunway {
     margin:3vh auto;
     padding:20px 30px;
@@ -119,6 +119,7 @@ body {
       border:3px solid #BEC1DF;
       .details {
         background:$primary-white;
+        border-radius:10px;
         h3 {
           text-decoration: underline;
           font-size:1.25em;
@@ -131,7 +132,7 @@ body {
         p {
           font-size:0.8em;
         }
-      } 
+      }
     }
   }
 }
@@ -170,10 +171,10 @@ body {
     .extra {
       p {
         color: $primary-white;
-        line-height: 2em;   
+        line-height: 2em;
       }
     }
-    
+
   }
   .remove-padding {
     padding: 0 !important;
@@ -213,7 +214,7 @@ body {
           text-align:center;
           margin-top:3vh;
           font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-          font-weight: normal; 
+          font-weight: normal;
           font-size:24px;
         }
         h4 {
@@ -348,7 +349,7 @@ footer {
       .extra {
         p {
           font-size: 0.8em;
-        } 
+        }
       }
     }
   }
@@ -395,7 +396,7 @@ footer {
   .pt2 {
     padding:2vh 0 0   ;
     .sect {
-      
+
       .char {
         // margin:3vh;
         padding:20px;
@@ -430,7 +431,7 @@ footer {
   }
 }
 @media (max-width:576px) {
-  
+
   .pt4 {
     padding:4vh 10px 0;
     .sect {
@@ -442,7 +443,7 @@ footer {
       }
     }
   }
-  
+
   .sect {
     .about-oway {
       p {
