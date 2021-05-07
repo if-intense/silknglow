@@ -185,9 +185,15 @@ body {
 
 
 .pt5 {
-  background:$trolley-grey;
+  background:$primary-white;
   padding:4vh 0;
   .sect {
+    h2 {
+      color:#000;
+    }
+    h4 {
+      color:#000;
+    }
     .owl-carousel {
       .owl-stage {
         display: flex;
@@ -196,47 +202,51 @@ body {
         display: flex;
         flex: 1 0 auto;
       }
-      .product {
-        display: flex;
-        flex-direction: column;
-        margin: 0 15px;
-        text-align: center;
-        background:$primary-white;
-        .caption {
+      a {
+        text-decoration:none;
+        color:#000;
+        .product {
           display: flex;
-          flex: 1 0 auto;
           flex-direction: column;
-          .flex-text {
-            flex-grow: 1;
+          margin: 0 15px;
+          text-align: center;
+          background:$primary-white;
+          .caption {
+            display: flex;
+            flex: 1 0 auto;
+            flex-direction: column;
+            .flex-text {
+              flex-grow: 1;
+            }
           }
-        }
-        h3 {
-          text-align:center;
-          margin-top:3vh;
-          font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-          font-weight: normal;
-          font-size:24px;
-        }
-        h4 {
-          text-align:center;
-          color:#000;
-        }
-        h6 {
-          span {
-            font-weight:bold;
+          h3 {
+            text-align:center;
+            margin-top:3vh;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-weight: normal;
+            font-size:24px;
           }
-        }
-        p.price {
-          color:#b51423;
-          strong {
-            font-size:2.5em;
+          h4 {
+            text-align:center;
+            color:#000;
           }
-        }
-        p.with-tax {
-          font-size:16px;
-          span {
-            font-size:2em;
-            font-weight:bold;
+          h6 {
+            span {
+              font-weight:bold;
+            }
+          }
+          p.price {
+            color:#b51423;
+            strong {
+              font-size:2.5em;
+            }
+          }
+          p.with-tax {
+            font-size:16px;
+            span {
+              font-size:2em;
+              font-weight:bold;
+            }
           }
         }
       }
@@ -311,7 +321,7 @@ footer {
   }
 
   .pt5 {
-    background:$trolley-grey;
+    // background:$trolley-grey;
     padding:4vh 0;
     .sect {
       .owl-carousel {
