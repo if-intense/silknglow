@@ -7,109 +7,104 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/assets/owl.theme.default.min.css">
-  <title>OWAY silk'n glow</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-  <link rel="manifest" href="favicon/site.webmanifest">
+  <title>OWAY INFINE</title>
   <link rel="stylesheet" href="css/index.css">
-  <script>
-    jQuery(document).ready(function ($) {
-      var owl = $("#carousel");
-      owl.owlCarousel({
-        autoplay: true,
-        autoplayTimeout: 5000,
-        autoplayHoverPause: true,
-        items: 3,
-        loop: true,
-        center: false,
-        rewind: false,
-        mouseDrag: true,
-        touchDrag: true,
-        pullDrag: true,
-        freeDrag: false,
-        margin: 0,
-        stagePadding: 0,
-        merge: false,
-        mergeFit: true,
-        autoWidth: false,
-        startPosition: 0,
-        rtl: false,
-        smartSpeed: 2000,
-        fluidSpeed: false,
-        dragEndSpeed: false,
-        responsive: {
-          0: {
-            items: 1
-            // nav: true
-          },
-          480: {
-            items: 1,
-            nav: false
-          },
-          768: {
-            items: 3,
-            // nav: true,
-            loop: true
-          },
-          992: {
-            items: 3,
-            // nav: true,
-            loop: true
-          },
-          1200: {
-            items: 3,
-            loop:true
-          }
-        },
-        responsiveRefreshRate: 1000,
-        responsiveBaseElement: window,
-        fallbackEasing: "swing",
-        info: false,
-        nestedItemSelector: false,
-        itemElement: "div",
-        stageElement: "div",
-        refreshClass: "owl-refresh",
-        loadedClass: "owl-loaded",
-        loadingClass: "owl-loading",
-        rtlClass: "owl-rtl",
-        responsiveClass: "owl-responsive",
-        dragClass: "owl-drag",
-        itemClass: "owl-item",
-        stageClass: "owl-stage",
-        stageOuterClass: "owl-stage-outer",
-        grabClass: "owl-grab",
-        autoHeight: false,
-        lazyLoad: false
-      });
-
-      $(".next").click(function () {
-        owl.trigger("owl.next");
-      });
-      $(".prev").click(function () {
-        owl.trigger("owl.prev");
-      });
-    });
-  </script>
 </head>
+<script>
+  jQuery(document).ready(function ($) {
+    var owl = $("#carousel");
+    owl.owlCarousel({
+      autoplay: true,
+      autoplayTimeout: 5000,
+      autoplayHoverPause: true,
+      items: 3,
+      loop: true,
+      center: false,
+      rewind: false,
+      mouseDrag: true,
+      touchDrag: true,
+      pullDrag: true,
+      freeDrag: false,
+      margin: 0,
+      stagePadding: 0,
+      merge: false,
+      mergeFit: true,
+      autoWidth: false,
+      startPosition: 0,
+      rtl: false,
+      smartSpeed: 2000,
+      fluidSpeed: false,
+      dragEndSpeed: false,
+      responsive: {
+        0: {
+          items: 1
+          // nav: true
+        },
+        480: {
+          items: 1,
+          nav: false
+        },
+        768: {
+          items: 3,
+          // nav: true,
+          loop: true
+        },
+        992: {
+          items: 3,
+          // nav: true,
+          loop: true
+        },
+        1200: {
+          items: 3,
+          loop:true
+        }
+      },
+      responsiveRefreshRate: 1000,
+      responsiveBaseElement: window,
+      fallbackEasing: "swing",
+      info: false,
+      nestedItemSelector: false,
+      itemElement: "div",
+      stageElement: "div",
+      refreshClass: "owl-refresh",
+      loadedClass: "owl-loaded",
+      loadingClass: "owl-loading",
+      rtlClass: "owl-rtl",
+      responsiveClass: "owl-responsive",
+      dragClass: "owl-drag",
+      itemClass: "owl-item",
+      stageClass: "owl-stage",
+      stageOuterClass: "owl-stage-outer",
+      grabClass: "owl-grab",
+      autoHeight: false,
+      lazyLoad: false
+    });
 
-
+    $(".next").click(function () {
+      owl.trigger("owl.next");
+    });
+    $(".prev").click(function () {
+      owl.trigger("owl.prev");
+    });
+  });
+</script>
 <body>
 
   <div class="wrapper">
     <nav class="navbar navbar-dark bg-dark">
     <!-- Navbar content -->
 
-    <a class="navbar-brand" href="https://oway.ifing-beauty.com/">
+    <a class="navbar-brand" href="#">
       <img src="img/logo-white.svg" alt="IFing Beauty Online OWAY SUNWAY" class="nav-logo">
     </a>
     </nav>
     <div class="jumbotron">
       <div class="logo col-2">
         <h1><img src="img/oway_logo.png" alt="OWAY" class="img-fluid"></h1>
-        <!-- <p>silk'n glow</p> -->
+        <!-- <p>Infine</p> -->
       </div>
     </div>
 
@@ -117,7 +112,7 @@
       <div class="sect col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-12">
         <h2 class="pb-2"><img src="img/oway_logo.png" alt="OWAY" height="60" width="60"> とは？</h2>
         <div class="about-oway col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 p-5 mb-5">
-        <p><strong><img src="img/oway_logo.png" alt="OWAY" height="40" width="40">（オーウェイ）</strong>は、イタリア・ボローニャで1948年に創業した、70年以上の歴史と伝統のある美容総合メーカーrolland社のオーガニックコスメブランドです。</p>
+        <p><strong>OWAY（オーウェイ）</strong>は、イタリア・ボローニャで1948年に創業した、70年以上の歴史と伝統のある美容総合メーカーrolland社のオーガニックコスメブランドです。</p>
 
         <p>現在、全世界70カ国以上で美容サロン様向けの製品を開発・製造しています。<br>〝バイオダイナミックファーム〟を自社で運営し、原材料の多くを自社栽培しているのも特徴の一つです。製品のデザインや広告・販売すべてのプロセスを全て自社で展開し、高品質な製品を世界中のユーザーに届けています。</p>
         </div>
@@ -126,16 +121,15 @@
 
 
     <div class="container-fluid pt1">
-      <div class="sect col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-12">
-        <h2>silk'n glowとは？</h2>
-        <div class="about-sunway col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12">
-        <p>silk’n glow（シルク アンド グロー）シリーズは、乾燥したダメージヘアやクセ毛のためのリペアラインです。髪をなめらかに整え、美しくしなやかなシルクのような手触りに導きます。<br>
-          活性成分が毛髪内部の補修と再構築をし、栄養をたっぷりと与え髪の乾燥を防ぎます。<br>
-          使い続けていくうちに髪のおさまりがよくなり、クセ毛防止効果も期待できます。また、キューティクルに光沢を与え髪全体のツヤが増していきます。<br>
-        このシリーズは、ヘアバス（シャンプー）・ヘアマスク（トリートメント）・セラム（洗い流さないオイルトリートメント）の構成です。</p>
-          <!-- この製品は髪をなめらかに洗い上げるヘアバス(シャンプー)で、毛髪のからみを防ぎシルクのような仕上がりに。<br>
-          OWAYのヘアバスの中ではテクスチャーがローションに近いので塗布の際は何回かに分けながら頭髪に付け泡立ててシャンプーしてください。</p> -->
-
+      <div class="sect col-lg-10 offset-lg-1 col-md-12 col-sm-12 col-12">
+        <h2 class="title">infineとは？</h2>
+        <div class="about-infine col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12">
+          <h4>バイオダイナミック成分をベースにしたOWAYラインの<br>スタイリング&フィニッシングシリーズ</h4>
+        <p>
+          infine （インフィーネ）は、天然由来原料から採れるオイル成分、樹脂成分、軟化成分がベースの、あらゆるヘアデザインに対応できる、OWAYのスタイリング＆フィニッシングシリーズです。
+          <br>
+          保護成分や栄養成分が一日中髪をケアし、湿気やダメージから髪を守りながら、スタイリングを長持ちさせます。
+        </p>
         </div>
       </div>
 
@@ -144,74 +138,43 @@
 
     <div class="container-fluid pt2">
       <div class="sect">
-        <h2>product characteristics</h2>
-        <h4>商品の特徴</h4>
-        <div class="row no-gutters mt-5">
+        <!-- <h2 class="title">characteristics</h2>
+        <h4>特徴</h4> -->
+        <div class="row no-gutters d-flex">
 
-          <!-- <div class="char col-xl-6 col-lg-6 col-md-6 col-sm-12 uv-sun d-flex">
-            <div class="content my-auto justify-content-center align-self-center">
-              <h3>UVケア</h3>
-                <p>日々の生活の中で、365日紫外線は降り注いでいます。紫外線の影響で髪や身体が、酸化ストレスに晒されています。sunwayシリーズは、髪や頭皮に紫外線の影響を受け、発生した活性酸素を抑え、酸化や早期老化を防ぎます。<br>
-              また、サン・プロテクティブ・エリクサーに使用されるUVフィルターは、太陽光をフィルタリングし、髪に有害な太陽光線を遮断します。</p>
+          <div class="col-lg-7 col-md-7 col-sm-12 col-12 justify-content-center align-self-center">
+
+
+              <div class="col-lg-12 ch-list">
+                <h3>スタイリング・ライン</h3>
+                <h2><span data-ruby="ペースト">PASTE</span> / <span data-ruby="ワックス">WAX</span> / <span data-ruby="ファイバー">PUTTY</span> / <span data-ruby="クレイ">MUD</span></h2>
+                <p><i class="far fa-hand-point-right"></i> フィニッシュ：毛束感を出しながら質感もコントロールさせます。</p>
+              </div>
+
+
+              <div class="col-lg-12 ch-list">
+                <h3>トリートメント・ライン</h3>
+                <h2><span data-ruby="ネクター">NECTAR</span> / <span data-ruby="ドロップス">DROPS</span> / <span data-ruby="クラウド">CLOUD</span></h2>
+                <p><i class="far fa-hand-point-right"></i> ヘアケア：栄養を与え内部を再構築し、輝きのある魅力的な髪にします。</p>
+              </div>
+
+              <div class="col-lg-12 ch-list">
+                <h3>テクスチャー・ライン</h3>
+                <h2><span data-ruby="グレイズ">GLAZE</span> / <span data-ruby="スプレイ">SPRAY</span> / <span data-ruby="ポーション">POTION</span></h2>
+                <p><i class="far fa-hand-point-right"></i> テクスチャー：フォルムと質感を作ります。</p>
+              </div>
+
+          </div>
+
+          <div class="col-lg-5 col-md-5 col-sm-12 col-12 no-gutters">
+            <div class="row">
+              <div class="col-lg-6 col-6 remove-padding"><img src="img/img001.jpg" alt="OWAY" class="img-fluid"></div>
+              <div class="col-lg-6 col-6 remove-padding"><img src="img/img002.jpg" alt="OWAY" class="img-fluid"></div>
+              <div class="col-lg-6 col-6 remove-padding"><img src="img/img003.jpg" alt="OWAY" class="img-fluid"></div>
+              <div class="col-lg-6 col-6 remove-padding"><img src="img/img004.jpg" alt="OWAY" class="img-fluid"></div>
+
             </div>
           </div>
-          <div class="char col-xl-6 col-lg-6 col-md-6 col-sm-12 preservation-free d-flex">
-            <div class="content my-auto justify-content-center align-self-center">
-              <h3>パラベンフリー</h3>
-              <p>すべてのsunwayシリーズ製品はパラベンを使用していません。<br>微生物汚染から守る目的に、化学防腐剤を使わずに、実現できる処方を開発しました。従来で使用される様な化学防腐剤を天然由来成分特有の保存機能を活用しています。</p>
-            </div>
-          </div>
-          <div class="char col-xl-6 col-lg-6 col-md-6 col-sm-12 nickel-test d-flex">
-            <div class="content my-auto justify-content-center align-self-center">
-              <h3>ニッケルテスト</h3>
-              <p>sunway製品は”ニッケル汚染”に関して生産ロットごとに特定の厳しい試験を実施。<br>
-              その目的は、劇的にニッケル含有量を減少させ、アレルギー性及び反応性敏感肌のお客様のニーズに応えるためです。</p>
-            </div>
-          </div>
-          <div class="char col-xl-6 col-lg-6 col-md-6 col-sm-12 dermatology-test d-flex">
-            <div class="content my-auto justify-content-center align-self-center">
-              <h3>皮膚科学テスト</h3>
-            <p>OWAYは直接身体に触れる製品（アフターサンヘア＆ボディバス）は、さらにパッチテストも実施しています。「皮膚科学テスト」を行なった製品は厳密な基準を通過し、敏感肌であっても低刺激で安全性の高い製品であることを保証します。</p>
-            </div>
-          </div> -->
-            <div class="col-lg-6 offset-lg-3 col-md-10 offset-md-1 col-sm-12">
-              <div class="row pro mb-4">
-                <div class="col-lg-4 col-md-5 col-sm-4 col-12">
-                  <img src="img/product001.png" alt="oway silk'n glow" class="img-fluid">
-                </div>
-                <div class="details col-lg-8 col-md-7 col-sm-8 col-12 justify-content-center align-self-center">
-                  <h3>silk'n glow hair bath</h3>
-                  <h4>シルク アンド グロー ヘアバス</h4>
-                  <p>髪をなめらかにする効果が強く、シルクのようなヘアに。<br>ヘアバスはローションに近いテクスチャーなので、トフの際は何回かに泡立てて、揉み込んでシャンプーしてください。</p>
-                </div>
-              </div>
-              <div class="row pro mb-4">
-                <div class="col-lg-4 col-md-5 col-sm-4 col-12">
-                  <img src="img/product003.png" alt="oway silk'n glow" class="img-fluid">
-                </div>
-                <div class="details col-lg-8 col-md-7 col-sm-8 col-12 justify-content-center align-self-center">
-                  <h3>silk'n glow hair mask</h3>
-                  <h4>シルク アンド グロー ヘアマスク</h4>
-                  <p>クセ毛防止効果：栄養をたっぷり与え、やわらかく光沢のあるヘアに。<br>
-                  シャンプー後、ヘアマスクを塗布して全体に馴染ませたあと、約3分放置して、すすいでください。</p>
-                </div>
-              </div>
-              <div class="row pro mb-4">
-                <div class="col-lg-4 col-md-5 col-sm-4 col-12">
-                  <img src="img/product005.png" alt="oway silk'n glow" class="img-fluid">
-                </div>
-                <div class="details col-lg-8 col-md-7 col-sm-8 col-12 justify-content-center align-self-center">
-                  <h3>silk'n glow serum</h3>
-                  <h4>シルク アンド グロー セラム</h4>
-                  <p>キューティクルに光沢を与えて、クセ毛を直します。乾かすにセラムをつけて乾かしてください</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="img-bottom col-xl-10 offset-xl-1 col-lg-12 px-0">
-              <img src="img/product-img.jpg" alt="OWAY silk'n glow" class="img-fluid">
-            </div>
-
 
         </div>
       </div>
@@ -219,66 +182,108 @@
 
     <div class="container-fluid pt3">
       <div class="sect">
-        <h2>ingredients</h2>
+        <h2 class="title">ingredients</h2>
         <h4>成分</h4>
-        <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12">
-          <div class="mt-5 row justify-content-center">
-            <div class="card characteristics col-lg-4 col-md-4 col-sm-6 col-10 offset-col-1 mb-4">
-              <!-- <h5 class="card-title">酸化ストレスからの保護</h5> -->
+        <p class="my-5">ナチュラル活性成分によって製品の効果を高めています。<br>
+          <strong>バイオダイナミック・マルビウム</strong>／<strong>オーガニック・ブラックキヌア</strong>／
+          <strong>アムラ</strong>／<strong>フェアトレード・マルラ</strong></p>
+        <div class="mt-5 row justify-content-center">
+          <!-- <div class="card-deck"> -->
+            <div class="card col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4">
+              <h5 class="card-title">バイオダイナミック・マルビウム</h5>
               <div class="card-image-top">
-                <img src="img/img_0001_biodynamic-oat.png" class="img-fluid" alt="バイオダイナミックアニス">
+                <img src="img/0001_a.png" class="img-fluid" alt="バイオダイナミックアニス">
               </div>
-              <div class="card-body">
-                <p class="card-text"><strong>バイオダイナミックオーツ麦</strong><br>
-                乾燥した髪の内部を補修、再構築します。
+              <div class="card-body px-0">
+                <!-- <h6 class="title"></h6> -->
+                <p class="card-text">
+                  紫外線保護効果。<br>頭皮を柔らかくし保護します。<br>白髪の発生を抑える効果があります。
                 </p>
               </div>
             </div>
-            <div class="card characteristics col-lg-4 col-md-4 col-sm-6 col-10 offset-col-1 mb-4">
-              <!-- <h5 class="card-title">物理的な損害に対して</h5> -->
+            <div class="card col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4">
+              <h5 class="card-title">オーガニック・ブラックキヌア</h5>
               <div class="card-image-top">
-                <img src="img/img_0002_organic-cupuaqu.png" class="img-fluid" alt="バイオダイナミックアニス">
+                <img src="img/0004_d.png" class="img-fluid" alt="バイオダイナミックアニス">
               </div>
-              <div class="card-body">
-                <p class="card-text"><strong>オーガニック・クプアス</strong><br>
-                  毛髪繊維に栄養を与え、髪を柔らかくし、輝きを与えます。</p>
+              <div class="card-body px-0">
+                <!-- <h6 class="title">オーガニック・ブラックキヌア</h6> -->
+                <p class="card-text">
+
+                    抗酸化作用・保護作用。<br>フリーラジカルに対抗。
+                </p>
               </div>
             </div>
-            <div class="card characteristics col-lg-4 col-md-4 col-sm-6 col-10 offset-col-1 mb-4">
-              <!-- <h5 class="card-title">髪や肌の乾燥</h5> -->
+            <div class="card col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4">
+              <h5 class="card-title">アムラ</h5>
               <div class="card-image-top">
-                <img src="img/img_0003_brazil-nut.png" class="img-fluid" alt="バイオダイナミックアニス">
+                <img src="img/0002_b.png" class="img-fluid" alt="バイオダイナミックアニス">
               </div>
-              <div class="card-body">
-                <p class="card-text"><strong>ブラジルナッツ・オイル</strong><br>
-                  水溶性のビタミンAとBをふんだんに含み、乾燥を防ぎながら、髪を滑らかに保ちます。輝きを与え、クシ通りよくします。</p>
+              <div class="card-body px-0">
+                <!-- <h6 class="title">アムラ</h6> -->
+                <p class="card-text">
+
+                  髪に栄養を与え、生き生きと輝かせる。
+                  「若返りの果実」として、「アーユルヴェーダ」において、様々な病気や老化を防ぐ効果があると重宝されています。
+                  インドでは、日常生活でも美容と健康に欠かせない果実として、現在も不動の地位を保っています。
+                </p>
+              </div>
+            </div>
+            <div class="card col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4">
+              <h5 class="card-title">フェアトレード・マルラ</h5>
+              <div class="card-image-top">
+                <img src="img/0003_c.png" class="img-fluid" alt="バイオダイナミックアニス">
+              </div>
+              <div class="card-body px-0">
+                <!-- <h6 class="title">フェアトレード・マルラ</h6> -->
+                <p class="card-text">
+
+                  髪を柔軟にし、補修、修復、保護効果があります。
+                  ポリフェノール、タンニン、クマリン、フラボノイド、トリテルペノイド、フィトステロールなど医薬的に重要な成分が豊富に含まれてます。</p>
               </div>
             </div>
         </div>
+
+        <div class="w-n col-lg-8 offset-lg-2">
+          <p class="pt-2">Stay-Free<br><span>ステイフリー</span></p>
+          <p></p>
+          <p class="small">以下の成分は使用しておりません。</p>
+          <ul>
+            <li>SLS/SLES</li>
+            <li>パラベン</li>
+            <li>PEG/PPG/BG</li>
+            <li>鉱物油</li>
+            <li>人工着色料</li>
+            <li>EDTA</li>
+            <li>人工香料</li>
+          </ul>
         </div>
-        <!-- <div class="preservative-free col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12">
-          <h2>防腐剤フリー</h2>
-          <div class="center-text col-lg-10 col-md-10 col-sm-11 col-12">
-            <p>sunwayは他の化粧品を同じレベルで微生物汚染から製品を守ることを、防腐剤を使わないで実現できる処方を開発しました。私たちは従来の防腐剤を新しい保存技術に交換しました。<br>それは天然成分の特有の保存機能を代替成分として活用したものです。</p>
-            <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-10 offset-1">
-              <img src="img/img005.jpg" alt="防腐剤フリー" class="img-fluid">
-            </div>
-          </div>
-        </div> -->
+
+
       </div>
     </div>
 
 
-    <div class="container-fluid pt4">
+    <div class="container-fluid px-0 pt4">
       <div class="sect">
-        <div class="row">
-          <div class="extra col-lg-6 col-md-6 col-sm-12 justify-content-center align-self-center">
-            <p>OWAYヘアケア史上、最もしっとりとした仕上がりになります。<br>元々、本国イタリアではクセ毛の強い南米の方々をモデルとして開発した「クセ毛対応」として人気の製品です。<br>
-            日本の方々は毛髪の形状から考慮し、週2回～3回ぐらいのご使用で様子をみながらお使いください。</p>
+        <!-- <h2 class="title">packaging</h2>
+        <h4>パッケージング</h4> -->
+        <div class="row no-gutters d-flex">
+
+          <div class="col-lg-7 col-md-8 col-sm-12 col-12 information justify-content-center align-self-center">
+            <h2>パッケージングについて
+            </h2>
+            <h5>Why glass?</h5>
+            <p>OWAYが採用した琥珀色の薬品用ガラス瓶は、高濃度な植物成分の純度を維持する保全性に優れています。</p>
+            <h5>Why aluminium?</h5>
+            <p>天然素材であるアルミニウムは、耐腐食性に優れ、製品の保護には理想的な素材です。100％リサイクルが可能なこれらの素材は、将来に渡っても無限に使用し続けることができます。</p>
+
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-12 px-0">
-            <img src="img/img001.jpg" alt="silk" class="img-fluid remove-padding">
+          <div class="col-lg-5 col-md-4 col-sm-12 col-12 no-gutters">
+
+              <div class="remove-padding"><img src="img/sect031.jpg" alt="OWAY" class="img-fluid"></div>
+
           </div>
 
         </div>
@@ -287,119 +292,195 @@
 
       <div class="pt5 container-fluid">
         <div class="sect">
-          <h2>product line-up</h2>
-          <h4>製品ラインナップ</h4>
-          <!-- <div class="products row justify-content-center">
-
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-             <div class="disp-product">
-                <a href="https://ifing-beauty.com/products/detail/47">
-                <img src="img/product003.png" alt="アフターサン ヘア＆ボディ バス" class="img-fluid">
-              </a>
-              <h3>after-sun hair & body bath</h3>
-              <h4>アフターサン ヘア＆ボディ バス</h4>
-
-              <h6><span>サイズ:</span> 240ml</h6>
-              <p class="price"><strong>3400</strong>円</p>
-              <p class="with-tax">(税込<span>3740</span>円)</p>
-             </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-              <div class="disp-product">
-                <a href="https://ifing-beauty.com/products/detail/49">
-                <img src="img/product002.png" alt="アフターサン ヘア マスク" class="img-fluid">
-              </a>
-              <h3>after-sun hair mask</h3>
-              <h4>アフターサン ヘア マスク</h4>
-
-              <h6><span>サイズ:</span> 150ml</h6>
-              <p class="price"><strong>3200</strong>円</p>
-              <p class="with-tax">(税込<span>3520</span>円)</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-              <div class="disp-product">
-                <a href="https://ifing-beauty.com/products/detail/51">
-                <img src="img/product001.png" alt="サン プロテクティブ エリクサー" class="img-fluid">
-              </a>
-              <h3>sun protective elixir</h3>
-              <h4>サン プロテクティブ エリクサー</h4>
-
-              <h6><span>サイズ:</span> 100ml</h6>
-              <p class="price"><strong>3800</strong>円</p>
-              <p class="with-tax">(税込<span>4180</span>円)</p>
-              </div>
-            </div>
-
-          </div> -->
+          <h2 class="title-p">product line-up</h2>
+          <h4 class="mb-5">製品ラインナップ</h4>
 
           <section>
             <div class="col-xl-10 offset-xl-1">
               <div id="carousel" class="owl-carousel owl-theme">
 
-                <a href="https://ifing-beauty.com/products/detail/37">
+                <!-- トリートメントライン -->
+                <a href="https://ifing-beauty.com/products/detail/115">
                 <div class="product item">
-                  <img src="img/product001.png" alt="シルク アンド グロー ヘアバス" class="img-fluid">
-                  <h3>silk'n glow hair bath</h3>
-                  <h4>シルク アンド グロー ヘアバス</h4>
-                  <h6><span>サイズ:</span> 240ml</h6>
+                  <img src="img/product001.jpg" alt="ニューチュアリング・ドロップス" class="img-fluid">
+                  <h3>nurturing drops</h3>
+                  <h4>ニューチュアリング・ドロップス</h4>
+                  <h6><span>サイズ:</span> 50ml</h6>
+                  <p class="price"><strong>3700</strong>円</p>
+                  <p class="with-tax">(税込<span>4070</span>円)</p>
+                </div>
+                </a>
+
+                 <!-- トリートメントライン -->
+                <a href="https://ifing-beauty.com/products/detail/116">
+                <div class="product item">
+                  <img src="img/product002.jpg" alt="グロッシー・ネクター" class="img-fluid">
+                  <h3>glossy nectar</h3>
+                  <h4>グロッシー・ネクター</h4>
+                  <h6><span>サイズ:</span> 160ml</h6>
+                  <p class="price"><strong>4700</strong>円</p>
+                  <p class="with-tax">(税込<span>5170</span>円)</p>
+                </div>
+                </a>
+
+                <!-- スタイリング・ライン -->
+                <a href="https://ifing-beauty.com/products/detail/117">
+                <div class="product item">
+                  <img src="img/product003.jpg" alt="プレシャス・ワックス" class="img-fluid">
+                  <h3>precious wax</h3>
+                  <h4>プレシャス・ワックス</h4>
+                  <h6><span>サイズ:</span> 100ml</h6>
+                  <p class="price"><strong>3600</strong>円</p>
+                  <p class="with-tax">(税込<span>3960</span>円)</p>
+                </div>
+                </a>
+
+                <!-- スタイリング・ライン -->
+                <a href="https://ifing-beauty.com/products/detail/118">
+                <div class="product item">
+                  <img src="img/product004.jpg" alt="シャビー・マッド" class="img-fluid">
+                  <h3>shabby mud</h3>
+                  <h4>シャビイ・マッド</h4>
+                  <h6><span>サイズ:</span> 100ml</h6>
                   <p class="price"><strong>3400</strong>円</p>
                   <p class="with-tax">(税込<span>3740</span>円)</p>
                 </div>
                 </a>
 
-                <a href="https://ifing-beauty.com/products/detail/38">
+                <!-- スタイリング・ライン -->
+                <a href="https://ifing-beauty.com/products/detail/119">
                 <div class="product item">
-                  <img src="img/product002.png" alt="シルク アンド グロー ヘアバス" class="img-fluid">
-                  <h3>silk'n glow hair bath</h3>
-                  <h4>シルク アンド グロー ヘアバス</h4>
-                  <h6><span>サイズ:</span> 500ml</h6>
-                  <p class="price"><strong>6800</strong>円</p>
-                  <p class="with-tax">(税込<span>7480</span>円)</p>
-                </div>
-                </a>
-
-                <a href="https://ifing-beauty.com/products/detail/39">
-                <div class="product item">
-                  <img src="img/product003.png" alt="シルク アンド グロー ヘアマスク" class="img-fluid">
-                  <h3>silk'n glow hair mask</h3>
-                  <h4>シルク アンド グロー ヘアマスク</h4>
-                  <h6><span>サイズ:</span> 150ml</h6>
-                  <p class="price"><strong>3200</strong>円</p>
-                  <p class="with-tax">(税込<span>3520</span>円)</p>
-                </div>
-                </a>
-
-                <a href="https://ifing-beauty.com/products/detail/51">
-                <div class="product item">
-                  <img src="img/product004.png" alt="シルク アンド グロー ヘアマスク" class="img-fluid">
-                  <h3>silk'n glow hair mask</h3>
-                  <h4>シルク アンド グロー ヘアマスク</h4>
-                  <h6><span>サイズ:</span> 500ml</h6>
-                  <p class="price"><strong>6400</strong>円</p>
-                  <p class="with-tax">(税込<span>7040</span>円)</p>
-                </div>
-                </a>
-
-                <a href="https://ifing-beauty.com/products/detail/51">
-                <div class="product item">
-                  <img src="img/product005.png" alt="シルク アンド グロー セラム" class="img-fluid">
-                  <h3>silk'n glow serum</h3>
-                  <h4>シルク アンド グロー セラム</h4>
+                    <img src="img/product005.jpg" alt="ボーホ・ポマード" class="img-fluid">
+                  <h3>boho pomade</h3>
+                  <h4>ボーホ・ポマード</h4>
                   <h6><span>サイズ:</span> 100ml</h6>
                   <p class="price"><strong>3800</strong>円</p>
                   <p class="with-tax">(税込<span>4180</span>円)</p>
                 </div>
                 </a>
 
+                <!-- スタイリング・ライン -->
+                <a href="https://ifing-beauty.com/products/detail/120">
+                <div class="product item">
+                <img src="img/product006.jpg" alt="シェイピング・パティ" class="img-fluid">
+                <h3>shaping putty</h3>
+                <h4>シェイピング・パティ</h4>
+                <h6><span>サイズ:</span> 100ml</h6>
+                <p class="price"><strong>3400</strong>円</p>
+                <p class="with-tax">(税込<span>3740</span>円)</p>
+                </div>
+                </a>
+
+                <!-- テクスチャー・ライン -->
+                <a href="https://ifing-beauty.com/products/detail/121">
+                <div class="product item">
+                  <img src="img/product007.jpg" alt="フラックス・ポーション" class="img-fluid">
+                  <h3>flux potion</h3>
+                  <h4>フラックス・ポーション</h4>
+                  <h6><span>サイズ:</span> 240ml</h6>
+                  <p class="price"><strong>3400</strong>円</p>
+                  <p class="with-tax">(税込<span>3740</span>円)</p>
+                </div>
+                </a>
+
+                 <!-- トリートメントライン -->
+                <a href="https://ifing-beauty.com/products/detail/122">
+                <div class="product item">
+                  <img src="img/product008.jpg" alt="グラムシャイン・クラウド" class="img-fluid">
+                  <h3>glamshine cloud</h3>
+                  <h4>グラムシャイン・クラウド</h4>
+                  <h6><span>サイズ:</span> 100ml</h6>
+                  <p class="price"><strong>3700</strong>円</p>
+                  <p class="with-tax">(税込<span>4070</span>円)</p>
+                </div>
+                </a>
+
+
+                <!-- テクスチャー・ライン -->
+                <a href="https://ifing-beauty.com/products/detail/123">
+                <div class="product item">
+                  <img src="img/product009.jpg" alt="シーソルト・スプレイ" class="img-fluid">
+                  <h3>sea salt spray</h3>
+                  <h4>シーソルト・スプレイ</h4>
+                  <h6><span>サイズ:</span> 240ml</h6>
+                  <p class="price"><strong>3700</strong>円</p>
+                  <p class="with-tax">(税込<span>4070</span>円)</p>
+                </div>
+                </a>
+
+
+                <!-- テクスチャー・ライン -->
+                <a href="https://ifing-beauty.com/products/detail/124">
+                <div class="product item">
+                  <img src="img/product010.jpg" alt="スカルプティング・ミスト" class="img-fluid">
+                  <h3>sculpting mist</h3>
+                  <h4>スカルプティング・ミスト</h4>
+                  <h6><span>サイズ:</span> 240ml</h6>
+                  <p class="price"><strong>3700</strong>円</p>
+                  <p class="with-tax">(税込<span>4070</span>円)</p>
+                </div>
+                </a>
+
+                <!-- スタイリング・ライン -->
+                <a href="https://ifing-beauty.com/products/detail/125">
+                <div class="product item">
+                  <img src="img/product011.jpg" alt="フローズン・グレイズ" class="img-fluid">
+                  <h3>frozen glaze</h3>
+                  <h4>フローズン・グレイズ</h4>
+                  <h6><span>サイズ:</span> 150ml</h6>
+                  <p class="price"><strong>3000</strong>円</p>
+                  <p class="with-tax">(税込<span>3300</span>円)</p>
+                </div>
+                </a>
+
+                <!-- スタイリング・ライン -->
+                <a href="https://ifing-beauty.com/products/detail/126">
+                <div class="product item">
+                  <img src="img/product012.jpg" alt="クイック・グルー" class="img-fluid">
+                  <h3>quick glue</h3>
+                  <h4>クイック・グルー</h4>
+                  <h6><span>サイズ:</span> 100ml</h6>
+                  <p class="price"><strong>3000</strong>円</p>
+                  <p class="with-tax">(税込<span>3300</span>円)</p>
+                </div>
+                </a>
+
+                <!-- テクスチャー・ライン -->
+                <a href="https://ifing-beauty.com/products/detail/127">
+                <div class="product item">
+                  <img src="img/product013.jpg" alt="バイオリッチ・ウォーター" class="img-fluid">
+                  <h3>bio rich water</h3>
+                  <h4>バイオリッチ・ウォーター</h4>
+                  <h6><span>サイズ:</span> 240ml</h6>
+                  <p class="price"><strong>2700</strong>円</p>
+                  <p class="with-tax">(税込<span>2970</span>円)</p>
+                </div>
+                </a>
+
+                <!-- テクスチャー・ライン -->
+                <a href="https://ifing-beauty.com/products/detail/128">
+                <div class="product item">
+                  <img src="img/product014.jpg" alt="サーマル・プロテクター" class="img-fluid">
+                  <h3>thermal stress protector</h3>
+                  <h4>サーマル・プロテクター</h4>
+                  <h6><span>サイズ:</span> 240ml</h6>
+                  <p class="price"><strong>4200</strong>円</p>
+                  <p class="with-tax">(税込<span>4620</span>円)</p>
+                </div>
+                </a>
+
 
 
               </div><!-- #carousel -->
+
+
+
+
+
+              </div>
             </div><!-- .container -->
           </section>
-
         </div>
-
       </div>
 
 
@@ -413,6 +494,7 @@
 
       </footer>
 
+
       <div class="match">
         <a href="#">カウンセリングはこちら</a>
       </div>
@@ -424,6 +506,7 @@
 
 
   </div>
+
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.0/jquery-migrate.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
